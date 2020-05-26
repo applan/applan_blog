@@ -18,7 +18,7 @@ $(window).resize(function() {
 $(window).scroll(function() {
     var scrollVal = $(document).scrollTop();
 
-    if (scrollVal > 800) {
+    if (scrollVal > 450) {
         header.addClass("scroll-800");
     } else {
         header.removeClass("scroll-800");
